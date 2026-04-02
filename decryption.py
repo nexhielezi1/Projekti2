@@ -5,7 +5,7 @@ katrori2 = "MNOPQRSTUVWXYZABCDEFGHIJKL"
 katrori3 = "KLMNOPQRSTUVWXYZABCDEFGHIJ"
 katrori4 = "STUVWXYZABCDEFGHIJKLMNOPQR"
 
-# Simple encryption
+
 def enkripto(teksti):
     teksti = teksti.upper().replace("J", "I")
     rezultati = ""
@@ -19,7 +19,7 @@ def enkripto(teksti):
             rezultati += shkronja
     return rezultati
 
-# Simple decryption
+
 def dekripto(teksti):
     teksti = teksti.upper().replace("J", "I")
     rezultati = ""
@@ -33,7 +33,7 @@ def dekripto(teksti):
             rezultati += shkronja
     return rezultati
 
-# Shembull
+
 mesazhi = "KY ESHTE NJE TEST"
 mesazhi_i_enkriptuar = enkripto(mesazhi)
 
